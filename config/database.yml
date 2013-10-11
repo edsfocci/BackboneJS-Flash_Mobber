@@ -17,7 +17,7 @@ development:
   encoding: unicode
   database: Flash_Mobber_development
   pool: 5
-  username: Flash_Mobber
+  username: developer
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -43,13 +43,5 @@ test:
   encoding: unicode
   database: Flash_Mobber_test
   pool: 5
-  username: Flash_Mobber
-  password:
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: Flash_Mobber_production
-  pool: 5
-  username: Flash_Mobber
+  username: developer
   password:
